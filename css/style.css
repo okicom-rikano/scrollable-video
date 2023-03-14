@@ -1,0 +1,15 @@
+article.box {
+    height: 100vh; /* 初期読み込み時に全画面にする */
+    width: 100%;
+    background: darkcyan;
+    padding-bottom: 0px; /* 全画面のとき */
+    padding-bottom: calc(100vh - 648px); /* 画面の高さを縮小させる例 */
+}
+
+video.items {
+    display: block;
+    height: 100%;
+    min-height: 400px; /* ビデオの最小高さを指定する */
+    width: 100%;
+    border: 6px solid red;
+}
